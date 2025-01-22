@@ -11,12 +11,12 @@ def convert(input_file, output_file):
             raise ValueError("Sentence or Emotion is not in excel columns.")
         
         with open(output_file, 'w', encoding='utf-8') as f:
-            f.write("id\tsentence\tsentiment\n")
+            f.write("id\t\tsentence\t\tsentiment\n")
 
             for idx, row in df.iterrows():
                 sentence = str(row['Sentence']).replace("\t", ' ').replace('\n', ' ').strip()
                 sentiment = str(row['Emotion']).strip()
-                f.write(f"{idx+1}\t{sentence}\t{sentiment}\n")
+                f.write(f"{idx+1}\t\t{sentence}\t\t{sentiment}\n")
         
         print(f'Convert completed!')
         print(f'Total data count : {len(df)}')
