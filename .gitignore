@@ -1,1 +1,6 @@
 talk_data.txt
+poetry.lock
+./models
+./results
+./dep_models/*
+./deprecated

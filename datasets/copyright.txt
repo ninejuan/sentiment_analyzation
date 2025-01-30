@@ -1,3 +1,15 @@
 해당 데이터셋은 AI Hub에서 다운로드받은 데이터셋입니다.
 출처 url : https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=270
-데이터셋 이름 : 한국어 감정 정보가 포함된 단발성 대화 데이터셋
+데이터셋 이름 : 한국어 감정 정보가 포함된 단발성 대화 데이터셋  
+  
+데이터셋 디렉토리별 출처  
+./datasets/short_talk  
+    - 한국어 감정 정보가 포함된 단발성 대화 데이터셋  
+    - https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=270  
+./datasets/senti_talk_large  
+    - 감성 대화 말뭉치  
+    - https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=86  
+./datasets/talk_voice_csv
+    - 감정 분류를 위한 대화 음성 데이터셋  
+    - https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=263  
+
